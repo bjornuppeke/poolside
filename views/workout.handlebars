@@ -1,1 +1,14 @@
-{{{ table }}}
+{{#each sections }}
+<table class="section table">
+	<tbody>
+		<tr>
+			<td class="iterations">{{{ iterations }}}</td>
+			<td class="entity">{{{ entity }}}</td>
+		</tr>
+		<tr>
+			<td class="extra">{{{ extra }}}</td>
+			<td class="subSum">{{{ subSum }}}</td>
+		</tr>
+	</tbody>
+</table>
+{{/each}}

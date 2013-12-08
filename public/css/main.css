@@ -119,6 +119,10 @@ textarea {
     border-top: 0;
 }
 
+.section>tbody>tr {
+    height: 160px;
+}
+
 .nowrap {
     display: inline;
     padding: 0;
@@ -128,6 +132,19 @@ textarea {
 .desc {
     display: inline;
     padding-left: 3px;
+}
+
+.iterations {
+    text-align: center;
+    width: 10%;
+}
+
+.innerEntityTable {
+    border-left: 1px solid #ddd;
+}
+
+.subSum {
+    text-align: right;
 }
 
 
