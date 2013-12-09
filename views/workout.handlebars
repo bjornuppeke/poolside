@@ -1,14 +1,31 @@
-{{#each sections }}
-<table class="section table">
-	<tbody>
-		<tr>
-			<td class="iterations">{{{ iterations }}}</td>
-			<td class="entity">{{{ entity }}}</td>
-		</tr>
-		<tr>
-			<td class="extra">{{{ extra }}}</td>
-			<td class="subSum">{{{ subSum }}}</td>
-		</tr>
-	</tbody>
-</table>
-{{/each}}
+<div class="sections">
+	{{#each sections }}
+	<div class="section">
+		<table class="table table-row">
+			<tbody>
+				<tr>
+					<td class="iterations"><h3>{{{ iterations }}}</h3></td>
+					<td class="entity">{{{ entity }}}</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="table table-row">
+			<tbody>
+				<tr>
+					<td class="extra"><h3>{{{ extra }}}</h3></td>
+					<td class="subSum"><h3>{{{ subSum }}}</h3></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	{{/each}}
+	<div class="section">
+		<table class="table table-sum">
+			<tbody>
+				<tr>
+					<td class="sum"><h3>{{{ sections.sum }}}</h3></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

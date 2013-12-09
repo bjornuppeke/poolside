@@ -101,6 +101,15 @@ textarea {
     margin-bottom: 0;
 }
 
+.table-row>thead>tr,
+.table-row>tbody>tr,
+.table-row>tfoot>tr,
+.table-row>thead>tr,
+.table-row>tbody>tr,
+.table-row>tfoot>tr {
+    height: 100px;
+}
+
 .table>thead>tr>th,
 .table>tbody>tr>th,
 .table>tfoot>tr>th,
@@ -108,6 +117,7 @@ textarea {
 .table>tbody>tr>td,
 .table>tfoot>tr>td {
     vertical-align: middle;
+    text-align: center;
 }
 
 .table>thead>tr:first-child>th,
@@ -117,10 +127,6 @@ textarea {
 .table>tbody>tr:first-child>td,
 .table>tfoot>tr:first-child>td {
     border-top: 0;
-}
-
-.section>tbody>tr {
-    height: 160px;
 }
 
 .nowrap {
@@ -135,28 +141,29 @@ textarea {
 }
 
 .iterations {
-    text-align: center;
-    width: 10%;
+    background-color: #FDFDFD;
+    width: 15%;
 }
 
-.innerEntityTable {
-    border-left: 1px solid #ddd;
+.entity {
+    background-color: #66A9BF;
 }
 
-.subSum {
-    text-align: right;
+.innerEntityTable>tbody>tr>td {
+    background-color: #66A9BF;
 }
 
+.extra {
+    color: #fff;
+    background-color: #3F474F;
+    width: 80%;
+}
 
-
-
-
-
-
-
-
-
-
+.subSum,
+.sum {
+    color: #000;
+    background-color: #B9F5EE;
+}
 
 
 /* ==========================================================================
