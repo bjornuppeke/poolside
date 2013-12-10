@@ -2,7 +2,7 @@ var express = require('express'),
 	exphbs = require('express3-handlebars'),
 
 	app = express(),
-	controller = require('lib/controller.js')();
+	controller = require('./lib/controller.js')();
 
 app.configure(function(){
 	app.set('views', __dirname + '/views');
