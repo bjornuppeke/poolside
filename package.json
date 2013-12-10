@@ -1,14 +1,18 @@
 {
-  "name": "PoolSide",
-  "version": "0.0.1",
-  "private": "true",
-  "engines": {
-    "node": "~0.10.22"
-  },
-  "dependencies": {
-    "express": "~3.4.6",
-    "express3-handlebars": "~0.5.0",
-    "cheerio": "~0.12.4"
-  },
-  "main": "app.js"
+	"name": "PoolSide",
+	"version": "0.0.1",
+	"private": "true",
+	"engines": {
+		"node": "~0.10.22"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bjornuppeke/poolside.git"
+	},
+	"dependencies": {
+		"express": "~3.4.6",
+		"express3-handlebars": "~0.5.0",
+		"cheerio": "~0.12.4"
+	},
+	"main": "app.js"
 }
