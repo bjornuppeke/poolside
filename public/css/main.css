@@ -97,6 +97,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.form-wrapper {
+    text-align: center;
+    padding: 50px;
+}
+
+.form-wrapper>h1 {
+    font-weight: 100;
+    letter-spacing: 7px;
+    margin: 0 0 20px;
+}
+
+.section h3 {
+    margin: 0;
+}
+
 .table {
     margin-bottom: 0;
 }
@@ -107,7 +122,7 @@ textarea {
 .table-row>thead>tr,
 .table-row>tbody>tr,
 .table-row>tfoot>tr {
-    height: 100px;
+    height: 110px;
 }
 
 .table>thead>tr>th,
@@ -141,28 +156,35 @@ textarea {
 }
 
 .iterations {
-    background-color: #FDFDFD;
+    color: #fff;
+    background-color: #E11F26;
     width: 15%;
 }
 
 .entity {
-    background-color: #66A9BF;
+    color: #fff;
+    background-color: #1C8ACB;
 }
 
 .innerEntityTable>tbody>tr>td {
-    background-color: #66A9BF;
+    background-color: #1C8ACB;
 }
 
 .extra {
     color: #fff;
-    background-color: #3F474F;
-    width: 80%;
+    background-color: #EBD613;
+    width: 70%;
 }
 
-.subSum,
+.subSum {
+    color: #fff;
+    background-color: #51A346;
+}
+
 .sum {
-    color: #000;
-    background-color: #B9F5EE;
+    color: #fff;
+    background-color: #626363;
+    height: 220px;
 }
 
 

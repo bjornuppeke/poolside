@@ -1,28 +1,33 @@
-<form action="/workout" method="POST" role="form">
-	<div class="form-group">
-		<label for="distance">Distance</label>
-		<select id="distance">
-			<option>2000</option>
-			<option>2500</option>
-			<option>3000</option>
-			<option>3500</option>
-			<option>4000</option>
-		</select>
-	</div>
-	<div class="form-group">
-		<label for="intensity">Intensity</label>
-		<select id="intensity">
-			<option>Intensivt</option>
-			<option>Medel</option>
-			<option>Lugnt</option>
-		</select>
-	</div>
-	<div class="form-group">
-		<label for="style">Style</label>
-		<select id="style">           
-			<option>Snabbhet</option>
-			<option>Distans</option>
-		</select>
-	</div>
-	<button type="submit" class="btn btn-primary">Swim</button>
-</form>
+<div class="form-wrapper">
+    <h1>POOLSIDE</h1>
+    <form action="/workout" method="POST" role="form">
+        <div class="form-group">
+            <select id="distance" class="form-control">
+                <option value="0">Välj distans</option>
+                <option value="2000">2000</option>
+                <option value="2500">2500</option>
+                <option value="3000">3000</option>
+                <option value="3500">3500</option>
+                <option value="4000">4000</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <select id="intensity" class="form-control">
+                <option value="0">Välj intensitet</option>
+                <option value="Intensivt">Intensivt</option>
+                <option value="Medel">Medel</option>
+                <option value="Lugnt">Lugnt</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <select id="style" class="form-control">
+                <option value="0">Välj stil</option>
+                <option value="Snabbhet">Snabbhet</option>
+                <option value="Distans">Distans</option>
+            </select>
+       </div>
+        <button type="submit" class="btn btn-primary col-xs-6 col-xs-offset-3">
+            <span class="glyphicon glyphicon-ok"></span> Simma
+        </button>
+    </form>
+</div>

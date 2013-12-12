@@ -1,6 +1,6 @@
-<div class="sections">
+<ul class="sections">
 	{{#each sections }}
-	<div class="section">
+	<li class="section">
 		<table class="table table-row">
 			<tbody>
 				<tr>
@@ -17,15 +17,15 @@
 				</tr>
 			</tbody>
 		</table>
-	</div>
+	</li>
 	{{/each}}
-	<div class="section">
+	<li class="section">
 		<table class="table table-sum">
 			<tbody>
 				<tr>
-					<td class="sum"><h3>{{{ sections.sum }}}</h3></td>
+					<td class="sum"><h1><span class="glyphicon glyphicon-thumbs-up"></span> {{{ sections.sum }}}</h3></td>
 				</tr>
 			</tbody>
 		</table>
-	</div>
-</div>
+	</li>
+</ul>
