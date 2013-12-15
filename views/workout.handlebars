@@ -1,31 +1,38 @@
 <ul class="sections">
-	{{#each sections }}
-	<li class="section">
-		<table class="table table-row">
-			<tbody>
-				<tr>
-					<td class="iterations"><h3>{{{ iterations }}}</h3></td>
-					<td class="entity">{{{ entity }}}</td>
-				</tr>
-			</tbody>
-		</table>
-		<table class="table table-row">
-			<tbody>
-				<tr>
-					<td class="extra"><h3>{{{ extra }}}</h3></td>
-					<td class="subSum"><h3>{{{ subSum }}}</h3></td>
-				</tr>
-			</tbody>
-		</table>
-	</li>
-	{{/each}}
-	<li class="section">
-		<table class="table table-sum">
-			<tbody>
-				<tr>
-					<td class="sum"><h1><span class="glyphicon glyphicon-thumbs-up"></span> {{{ sections.sum }}}</h3></td>
-				</tr>
-			</tbody>
-		</table>
-	</li>
+    {{#each sections }}
+    <li class="section">
+
+        <div class="outerContainer iterations">
+            <div class="innerContainer">
+                <h1>{{{ iterations }}}</h1>
+            </div>
+        </div>
+
+        <div class="outerContainer entity">
+            <div class="innerContainer">
+                {{{ entity }}}
+            </div>
+        </div>
+
+        <div class="outerContainer extra">
+            <div class="innerContainer">
+                <h1>{{{ extra }}}</h1>
+            </div>
+        </div>
+
+        <div class="outerContainer subSum">
+            <div class="innerContainer">
+                <h1>{{{ subSum }}}</h1>
+            </div>
+        </div>
+
+    </li>
+    {{/each}}
+    <li class="section">
+        <div class="outerContainer sum">
+            <div class="innerContainer">
+                <div class="glyphicon glyphicon-thumbs-up"></div><h1>{{{ sections.sum }}}</h1>
+            </div>
+        </div>
+    </li>
 </ul>

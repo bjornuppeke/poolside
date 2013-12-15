@@ -108,12 +108,93 @@ textarea {
     margin: 0 0 20px;
 }
 
-.section h3 {
+@media only screen and (max-width: 568px) {
+    .bx-controls {
+        display: none;
+    }
+}
+
+.bx-wrapper {
     margin: 0;
 }
 
-.table {
-    margin-bottom: 0;
+
+h1,
+h3 {
+    margin: 0;
+}
+
+ul.sections {
+    text-align: center;
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+.outerContainer {
+    display: table;
+    height: 80px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.innerContainer {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.iterations {
+    color: #fff;
+    background-color: #E11F26;
+}
+
+.entity {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1C8ACB;
+    height: 160px;
+    padding: 0 20px;
+}
+
+.innerEntityTable {
+    margin: 0;
+}
+
+.innerEntityTable>tbody>tr>td {
+    background-color: #1C8ACB;
+}
+
+.extra {
+    color: #fff;
+    background-color: #EBD613;
+    width: 70%;
+    float: left;
+}
+
+.subSum {
+    color: #fff;
+    background-color: #51A346;
+    width: 30%;
+}
+
+.sum {
+    color: #fff;
+    background-color: #626363;
+    height: 320px;
+}
+
+.sum .glyphicon {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.sum h1 {
+    display: inline-block;
+    font-size: 3rem;
 }
 
 .table-row>thead>tr,
@@ -153,38 +234,6 @@ textarea {
 .desc {
     display: inline;
     padding-left: 3px;
-}
-
-.iterations {
-    color: #fff;
-    background-color: #E11F26;
-    width: 15%;
-}
-
-.entity {
-    color: #fff;
-    background-color: #1C8ACB;
-}
-
-.innerEntityTable>tbody>tr>td {
-    background-color: #1C8ACB;
-}
-
-.extra {
-    color: #fff;
-    background-color: #EBD613;
-    width: 70%;
-}
-
-.subSum {
-    color: #fff;
-    background-color: #51A346;
-}
-
-.sum {
-    color: #fff;
-    background-color: #626363;
-    height: 220px;
 }
 
 
